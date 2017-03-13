@@ -15,7 +15,7 @@ Overview
     |- literature/      # Any literature collected specifically for this proposal
     |
     |- proposal/        # Text and pdf files used for the proposal
-    |  +- instructions/ # Documents issued by grand funding body outlining proposal requirements
+    |  |- instructions/ # Documents issued by grand funding body outlining proposal requirements
     |  +- figures/      # Figures used in proposal
     |
     |- README.md        # The top level description of content
