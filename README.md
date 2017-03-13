@@ -8,15 +8,15 @@ Overview
 --------
 
     project
-    |- Figures/         # Figures used in proposal and/or final report
+    |- final_report/    # Text and pdf files used for the final report
+    |  |- instructions/ # Documents issued by grand funding body outlining final report requirements
+    |  +- figures/      # Figures used in final report
     |
-    |- Final_report/    # Text and pdf files used for the final report
+    |- literature/      # Any literature collected specifically for this proposal
     |
-    |- Instructions/    # Documents issued by grand funding body outlining proposal/report requirements
-    |
-    |- Literature/      # Any literature collected specifically for this proposal
-    |
-    |- Proposal/        # Text and pdf files used for the proposal
+    |- proposal/        # Text and pdf files used for the proposal
+    |  +- instructions/ # Documents issued by grand funding body outlining proposal requirements
+    |  +- figures/      # Figures used in proposal
     |
     |- README.md        # The top level description of content
     |- Makefile         # Executable Makefile for this propoal, if applicable
@@ -25,7 +25,7 @@ Overview
 
 Requirements
 ------------
-If using [Pandoc Markdown](http://pandoc.org/MANUAL.html) you will need to install Install [Pandoc](http://johnmacfarlane.net/pandoc/) And [Tex Live](https://www.tug.org/texlive/).
+If using [Pandoc Markdown](http://pandoc.org/MANUAL.html) you will need to install [Pandoc](http://johnmacfarlane.net/pandoc/) And [Tex Live](https://www.tug.org/texlive/).
 
 `apt-get install pandoc`
 
