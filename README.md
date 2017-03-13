@@ -21,6 +21,9 @@ Overview
     |- README.md        # The top level description of content
     |- Makefile         # Executable Makefile for this propoal, if applicable
     |- BibTexCiteKeyForMarkdown.js  # File which enables Zotero to export markdown citation keys
+    |- example_bibliography.bib     # An example reference library
+    |- example_proposal.md          # An example report markdown file
+    +- example_proposal.pdf         # An example output generated with Pandoc from the example_proposal.md file
 
 
 How to use
