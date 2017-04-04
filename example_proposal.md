@@ -2,16 +2,15 @@
 % First, Last
 % August 7, 2017
 
-
 ---
+author: Martin K. M. Engqvist
 layout: article
-title: My Grand Proposal
-author:
- - name: First, Last
- - orcid: 0000-0000-0000-0000
- - affiliation: University of xyz
-
+papersize: a4
+classoption: twocolumn
+linestretch: 1.0
+fontsize: 11pt
 bibliography: example_bibliography.bib
+csl: ./styles-master/vancouve.csl
 ...
 
 \newpage
@@ -23,6 +22,3 @@ Text text text text text text text text text text text text text text text text 
 
 References
 =========
-
-
-
