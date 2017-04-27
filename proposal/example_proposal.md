@@ -1,6 +1,6 @@
 
 ---
-author: Martin K. M. Engqvist
+author: First Last
 layout: article
 papersize: a4
 classoption: twocolumn
@@ -9,7 +9,7 @@ fontsize: 11pt
 link-citations: no
 linkcolor: blue
 bibliography: example_bibliography.bib
-csl: ./proposal/styles-master/vancouver.csl
+csl: ./styles-master/vancouver.csl
 ...
 
 

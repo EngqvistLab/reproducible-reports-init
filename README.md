@@ -42,7 +42,7 @@ Working with Pandoc
 * Compile the final report document(s) with [Pandoc](http://johnmacfarlane.net/pandoc/). Output format can be chosen as desired (html, doc, rtf, tex) and does not have to be pdf.
 
 
-Generate pdf using the command line as such:
+Generate pdf using the command line as such: \
 `pandoc --filter pandoc-citeproc example_proposal.md -o example_proposal.pdf`
 
 
@@ -50,13 +50,13 @@ Requirements
 ------------
 If using [Pandoc Markdown](http://pandoc.org/MANUAL.html) you will need to install [Pandoc](http://johnmacfarlane.net/pandoc/), [Tex Live](https://www.tug.org/texlive/) and pandoc-citeproc (to handle references).
 
-Install [Pandoc](http://johnmacfarlane.net/pandoc/):
+Install [Pandoc](http://johnmacfarlane.net/pandoc/): \
 `apt-get install pandoc`
 
-Install texlive (for LaTeX support):
+Install texlive (for LaTeX support): \
 `apt-get install texlive`
 
-Requires citeproc for citations:
+Requires citeproc for citations: \
 `apt-get install pandoc-citeproc`
 
 
