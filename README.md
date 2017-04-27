@@ -16,7 +16,7 @@ Overview
     |
     |- proposal/         # Text and pdf files used for the proposal
     |  |- styles-master/ # Folder containing citation styles (from https://github.com/citation-style-language/styles)
-    |  |- instructions/  # Documents issued by grand funding body outlining proposal requirements
+    |  |- instructions/  # Documents issued by grant funding body outlining proposal requirements
     |  +- figures/       # Figures used in proposal
     |
     |- README.md         # The top level description of content
@@ -40,10 +40,6 @@ Working with Pandoc
 * [Pandoc Markdown](http://pandoc.org/MANUAL.html) is a great tool for writing your proposal/report. It allows you to focus on the content while adding labels telling Pandoc how to format stuff.
 * Ensure that your citation library in .bib format and placed it in the project folder.
 * Compile the final report document(s) with [Pandoc](http://johnmacfarlane.net/pandoc/). Output format can be chosen as desired (html, doc, rtf, tex) and does not have to be pdf.
-
-
-Generate pdf using the command line as such: \
-`pandoc --filter pandoc-citeproc example_proposal.md -o example_proposal.pdf`
 
 
 Requirements
